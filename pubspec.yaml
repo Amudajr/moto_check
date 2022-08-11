@@ -1,0 +1,54 @@
+name: moto_check
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_svg: ^1.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - images/logo1.png
+     - images/Userdets.png
+     - svg/user.svg
+     - svg/Vector1.svg
+     - svg/Vector2.svg
+     - svg/arrow.svg
+     - svg/menu.svg
+     - svg/time.svg
+     - svg/1.svg
+     - svg/2.svg
+     - svg/3.svg
+     - svg/4.svg
+     - svg/5.svg
+     - svg/6.svg
+     - svg/7.svg
+
+  fonts:
+     - family: Sofia Pro
+       fonts:
+         - asset: Fonts/sofiapro-light.otf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

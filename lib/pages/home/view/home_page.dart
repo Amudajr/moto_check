@@ -299,7 +299,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           SizedBox(
-                            width: 25,
+                            width: 20,
                           ),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -309,7 +309,7 @@ class _HomePageState extends State<HomePage> {
                                 'Inspection',
                                 style: TextStyle(
                                     fontFamily: 'Sofia Pro',
-                                    fontSize: 18,
+                                    fontSize: 16,
                                     fontWeight: FontWeight.bold),
                               ),
                               SizedBox(
@@ -330,7 +330,7 @@ class _HomePageState extends State<HomePage> {
                             ],
                           ),
                           SizedBox(
-                            width: 10,
+                            width: 8,
                           ),
                           SvgPicture.asset(
                             "svg/arrow.svg",
@@ -374,7 +374,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           SizedBox(
-                            width: 25,
+                            width: 20,
                           ),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -384,7 +384,7 @@ class _HomePageState extends State<HomePage> {
                                 'Maintenance',
                                 style: TextStyle(
                                     fontFamily: 'Sofia Pro',
-                                    fontSize: 18,
+                                    fontSize: 16,
                                     fontWeight: FontWeight.bold),
                               ),
                               SizedBox(
@@ -405,7 +405,7 @@ class _HomePageState extends State<HomePage> {
                             ],
                           ),
                           SizedBox(
-                            width: 10,
+                            width: 8,
                           ),
                           SvgPicture.asset(
                             "svg/arrow.svg",

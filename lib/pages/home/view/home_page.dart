@@ -16,31 +16,29 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldState,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Color.fromARGB(255, 246, 243, 243),
+        leading: InkWell(
+          onTap: () {
+            _scaffoldState.currentState?.openDrawer();
+          },
+          child: SvgPicture.asset(
+            "svg/menu.svg",
+          ),
+        ),
+        actions: [
+          SvgPicture.asset(
+            "svg/user.svg",
+          ),
+        ],
+      ),
       backgroundColor: Color.fromARGB(255, 246, 243, 243),
       drawer: NavBar(),
       body: SafeArea(
           child: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
-              child: Row(
-                children: [
-                  InkWell(
-                    onTap: () {
-                      _scaffoldState.currentState?.openDrawer();
-                    },
-                    child: SvgPicture.asset(
-                      "svg/menu.svg",
-                    ),
-                  ),
-                  Spacer(),
-                  SvgPicture.asset(
-                    "svg/user.svg",
-                  ),
-                ],
-              ),
-            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Column(

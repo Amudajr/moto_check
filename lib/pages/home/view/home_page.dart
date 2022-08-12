@@ -117,7 +117,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     height: 150,
-                    width: 400,
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(5),
                         color: Colors.white),
@@ -185,7 +185,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     height: 150,
-                    width: 400,
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
                       color: Colors.white,
@@ -268,7 +268,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     height: 120,
-                    width: 400,
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
                       color: Colors.white,
@@ -343,7 +343,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     height: 120,
-                    width: 400,
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
                       color: Colors.white,
